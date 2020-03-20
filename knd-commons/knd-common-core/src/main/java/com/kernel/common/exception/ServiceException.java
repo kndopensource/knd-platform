@@ -15,7 +15,8 @@
  */
 package com.kernel.common.exception;
 
-import com.kernel.common.exception.enums.AbstractBaseExceptionEnum;
+
+import com.kernel.common.enums.AbstractBaseExceptionEnum;
 
 /**
  * 业务异常的封装

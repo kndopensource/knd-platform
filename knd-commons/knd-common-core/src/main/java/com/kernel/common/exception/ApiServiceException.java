@@ -15,9 +15,9 @@
  */
 package com.kernel.common.exception;
 
+import com.kernel.common.enums.AbstractBaseExceptionEnum;
 import lombok.Getter;
 import lombok.Setter;
-
 /**
  * 远程接口调用出现的业务异常
  *
