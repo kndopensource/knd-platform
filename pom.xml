@@ -7,6 +7,11 @@
     <groupId>com.knd</groupId>
     <artifactId>knd-platform</artifactId>
     <version>1.0.0</version>
+    <modules>
+        <module>knd-commons</module>
+        <module>knd-micro</module>
+        <module>knd-demo</module>
+    </modules>
     <packaging>pom</packaging>
     
 </project>
