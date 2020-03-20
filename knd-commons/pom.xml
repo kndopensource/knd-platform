@@ -10,10 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>knd-commons</artifactId>
     <description>通用基础组件集</description>
+    <packaging>pom</packaging>
     <modules>
         <module>knd-common-core</module>
         <module>knd-log-springboot-starter</module>
     </modules>
-    <packaging>pom</packaging>
+
 
 </project>

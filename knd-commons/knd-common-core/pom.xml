@@ -11,5 +11,12 @@
     <description>业务通用核心模块</description>
     <artifactId>knd-common-core</artifactId>
     <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <optional>true</optional>
+        </dependency>
 
+    </dependencies>
 </project>
