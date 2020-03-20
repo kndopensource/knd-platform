@@ -3,17 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>knd-platform</artifactId>
+        <artifactId>knd-commons</artifactId>
         <groupId>com.knd</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>knd-commons</artifactId>
-    <description>通用基础组件集</description>
-    <modules>
-        <module>knd-common-core</module>
-        <module>knd-log-springboot-starter</module>
-    </modules>
-    <packaging>pom</packaging>
+    <description>日志功能模块</description>
+    <artifactId>knd-log-springboot-starter</artifactId>
+    <packaging>jar</packaging>
 
 </project>
