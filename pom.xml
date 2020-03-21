@@ -100,7 +100,6 @@
     <dependencyManagement>
         <dependencies>
             <!-- 自定义 starter -->
-
             <dependency>
                 <groupId>com.knd</groupId>
                 <artifactId>knd-log-springboot-starter</artifactId>
@@ -109,6 +108,11 @@
             <dependency>
                 <groupId>com.knd</groupId>
                 <artifactId>knd-common-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.knd</groupId>
+                <artifactId>knd-redis-springboot-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -177,7 +181,7 @@
                 <version>${swagger.mg.ui.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.knd2000</groupId>
+                <groupId>com.github.zlt2000</groupId>
                 <artifactId>swagger-butler-core</artifactId>
                 <version>${swagger.butler.version}</version>
             </dependency>
