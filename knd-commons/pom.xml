@@ -17,6 +17,7 @@
         <module>knd-common-springboot-starter</module>
         <module>knd-db-springboot-starter</module>
         <module>knd-redis-springboot-starter</module>
+        <module>knd-ribbon-springboot-starter</module>
     </modules>
 
 
