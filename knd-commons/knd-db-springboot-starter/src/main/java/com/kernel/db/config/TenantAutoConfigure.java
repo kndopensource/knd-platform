@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * 多租户自动配置
  *
- * @author zlt
+ * @author kernel
  * @date 2020/3/21
  */
 @EnableConfigurationProperties(TenantProperties.class)

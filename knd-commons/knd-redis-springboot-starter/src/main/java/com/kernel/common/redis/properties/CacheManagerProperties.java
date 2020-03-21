@@ -12,7 +12,7 @@ import java.util.List;
  */
 @Setter
 @Getter
-@ConfigurationProperties(prefix = "zlt.cache-manager")
+@ConfigurationProperties(prefix = "kernel.cache-manager")
 public class CacheManagerProperties {
     private List<CacheConfig> configs;
 

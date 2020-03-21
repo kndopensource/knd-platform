@@ -18,6 +18,7 @@
         <module>knd-db-springboot-starter</module>
         <module>knd-redis-springboot-starter</module>
         <module>knd-ribbon-springboot-starter</module>
+        <module>knd-sentinel-springboot-starter</module>
     </modules>
 
 

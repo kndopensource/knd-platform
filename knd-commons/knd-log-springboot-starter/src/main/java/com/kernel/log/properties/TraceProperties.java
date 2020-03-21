@@ -13,7 +13,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
  */
 @Setter
 @Getter
-@ConfigurationProperties(prefix = "zlt.trace")
+@ConfigurationProperties(prefix = "kernel.trace")
 @RefreshScope
 public class TraceProperties {
     /**

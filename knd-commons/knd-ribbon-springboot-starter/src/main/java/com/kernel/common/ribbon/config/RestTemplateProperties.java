@@ -12,7 +12,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  */
 @Setter
 @Getter
-@ConfigurationProperties(prefix = "zlt.rest-template")
+@ConfigurationProperties(prefix = "kernel.rest-template")
 public class RestTemplateProperties {
     /**
      * 最大链接数

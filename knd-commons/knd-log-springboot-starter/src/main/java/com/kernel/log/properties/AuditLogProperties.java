@@ -15,7 +15,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
  */
 @Setter
 @Getter
-@ConfigurationProperties(prefix = "zlt.audit-log")
+@ConfigurationProperties(prefix = "kernel.audit-log")
 @RefreshScope
 public class AuditLogProperties {
     /**
