@@ -16,6 +16,7 @@
         <module>knd-log-springboot-starter</module>
         <module>knd-common-springboot-starter</module>
         <module>knd-db-springboot-starter</module>
+        <module>knd-redis-springboot-starter</module>
     </modules>
 
 
