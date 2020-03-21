@@ -19,6 +19,7 @@
         <module>knd-redis-springboot-starter</module>
         <module>knd-ribbon-springboot-starter</module>
         <module>knd-sentinel-springboot-starter</module>
+        <module>knd-swagger2-springboot-starter</module>
     </modules>
 
 
