@@ -14,5 +14,6 @@
 
     <modules>
         <module>scloud-gateway</module>
+        <module>zuul-gateway</module>
     </modules>
 </project>
