@@ -12,6 +12,7 @@
     <modules>
         <module>micro-nacos-config</module>
         <module>micro-gateway</module>
+        <module>micro-job</module>
     </modules>
     <artifactId>knd-micro</artifactId>
     <packaging>pom</packaging>
