@@ -18,11 +18,8 @@ import org.springframework.security.web.server.authentication.ServerAuthenticati
 /**
  * 资源服务器配置
  *
- * @author zlt
- * @date 2019/10/5
- * <p>
- * Blog: https://blog.csdn.net/zlt2000
- * Github: https://github.com/zlt2000
+ * @author kndopensource
+ * @date 2020/3/22
  */
 @Configuration
 public class ResourceServerConfiguration {

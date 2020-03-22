@@ -19,8 +19,8 @@ import java.util.List;
 /**
  * url权限认证
  *
- * @author zlt
- * @date 2019/10/6
+ * @author kndopensource
+ * @date 2020/3/22
  * <p>
  */
 @Slf4j

@@ -3,4 +3,4 @@ server:
 
 spring:
   application:
-    name: sc-gateway
+    name: scloud-gateway

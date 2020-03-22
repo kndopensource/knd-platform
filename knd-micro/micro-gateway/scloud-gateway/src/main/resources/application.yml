@@ -75,14 +75,14 @@ spring:
             - StripPrefix=1
 #    sentinel:
 #      datasource.ds1.nacos:
-#        server-addr: ${zlt.nacos.server-addr}
+#        server-addr: ${knd.nacos.server-addr}
 #        data-id: ${spring.application.name}-sentinel-gw-flow
 #        group-id: DEFAULT_GROUP
 #        ruleType: gw-flow
 #      filter:
 #        enabled: true
 
-zlt:
+knd:
   swagger-agg:
     generate-routes: user,file
   oauth2:

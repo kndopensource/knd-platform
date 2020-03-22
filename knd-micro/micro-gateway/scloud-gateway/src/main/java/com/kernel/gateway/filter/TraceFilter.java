@@ -16,11 +16,8 @@ import reactor.core.publisher.Mono;
 /**
  * 生成日志链路追踪id，并传入header中
  *
- * @author zlt
- * @date 2019/10/7
- * <p>
- * Blog: https://blog.csdn.net/zlt2000
- * Github: https://github.com/zlt2000
+ * @author kndopensource
+ * @date 2020/3/22
  */
 @Component
 public class TraceFilter implements GlobalFilter, Ordered {

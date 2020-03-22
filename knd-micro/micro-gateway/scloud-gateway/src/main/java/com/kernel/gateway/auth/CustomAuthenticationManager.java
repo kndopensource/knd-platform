@@ -10,11 +10,8 @@ import org.springframework.security.oauth2.server.resource.BearerTokenAuthentica
 import reactor.core.publisher.Mono;
 
 /**
- * @author zlt
- * @date 2019/10/6
- * <p>
- * Blog: https://blog.csdn.net/zlt2000
- * Github: https://github.com/zlt2000
+ * @author knd
+ * @date 2020/3/22
  */
 public class CustomAuthenticationManager implements ReactiveAuthenticationManager {
     private TokenStore tokenStore;

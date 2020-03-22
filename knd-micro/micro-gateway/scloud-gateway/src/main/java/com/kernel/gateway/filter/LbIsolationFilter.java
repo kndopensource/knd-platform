@@ -19,11 +19,8 @@ import static org.springframework.cloud.gateway.support.ServerWebExchangeUtils.G
 /**
  * 传递负载均衡隔离值
  *
- * @author zlt
- * @date 2019/10/7
- * <p>
- * Blog: https://blog.csdn.net/zlt2000
- * Github: https://github.com/zlt2000
+ * @author kndopensource
+ * @date 2020/3/22
  */
 @Component
 @ConditionalOnProperty(name = ConfigConstants.CONFIG_RIBBON_ISOLATION_ENABLED, havingValue = "true")

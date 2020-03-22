@@ -11,11 +11,8 @@ import reactor.core.publisher.Mono;
 /**
  * 401未授权异常处理，转换为JSON
  *
- * @author zlt
- * @date 2019/10/7
- * <p>
- * Blog: https://blog.csdn.net/zlt2000
- * Github: https://github.com/zlt2000
+ * @author knd
+ * @date 2020/3/22
  */
 @Slf4j
 public class JsonAuthenticationEntryPoint implements ServerAuthenticationEntryPoint {

@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 /**
  * menuService降级工场
  *
- * @author zlt
- * @date 2019/1/18
+ * @author knd
+ * @date 2020/3/22
  */
 @Slf4j
 @Component

@@ -9,11 +9,8 @@ import java.net.UnknownHostException;
 import java.util.Map;
 
 /**
- * @author zlt
- * @date 2019/10/7
- * <p>
- * Blog: https://blog.csdn.net/zlt2000
- * Github: https://github.com/zlt2000
+ * @author kndopnesource
+ * @date 2020/3/22
  */
 @Slf4j
 public class ReactiveAddrUtil {

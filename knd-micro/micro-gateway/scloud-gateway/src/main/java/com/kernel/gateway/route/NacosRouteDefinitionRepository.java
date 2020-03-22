@@ -21,11 +21,8 @@ import java.util.concurrent.Executor;
 /**
  * nacos路由数据源
  *
- * @author zlt
- * @date 2019/10/7
- * <p>
- * Blog: https://blog.csdn.net/zlt2000
- * Github: https://github.com/zlt2000
+ * @author kndopensource
+ * @date 2020/3/22
  */
 @Slf4j
 public class NacosRouteDefinitionRepository implements RouteDefinitionRepository {
