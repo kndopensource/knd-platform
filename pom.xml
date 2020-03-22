@@ -99,6 +99,11 @@
     </dependencies>
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.knd</groupId>
+                <artifactId>micro-nacos-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <!-- 自定义 starter -->
             <dependency>
                 <groupId>com.knd</groupId>
@@ -113,6 +118,16 @@
             <dependency>
                 <groupId>com.knd</groupId>
                 <artifactId>knd-redis-springboot-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.knd</groupId>
+                <artifactId>knd-sentinel-springboot-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.knd</groupId>
+                <artifactId>knd-ribbon-springboot-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

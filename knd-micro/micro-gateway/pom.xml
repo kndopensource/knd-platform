@@ -11,5 +11,8 @@
     <description>网关服务组件集</description>
     <artifactId>micro-gateway</artifactId>
     <packaging>pom</packaging>
-
+    
+    <modules>
+        <module>scloud-gateway</module>
+    </modules>
 </project>
