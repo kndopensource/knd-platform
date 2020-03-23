@@ -29,7 +29,7 @@
    - 公共工具性功能模块 
    - 微服务公共组件模块
 
-   ###2. 业务组件模块
+   ###2. 项目框架组以及组件规范
 
        主要包括基本业务模块，新增业务模块按照基本业务模块类似方式在这个模块中进行开发
        
@@ -46,7 +46,7 @@
          │  │  ├─knd-swagger2-spring-boot-starter -- 封装Swagger通用操作逻辑
          │  │  ├─knd-doc -- 项目文档
          │  │─knd-micro -- 通用微服务组件模块
-         │  │  ├─knd-config -- 配置中心（考虑阿波罗）
+         │  │  ├─knd-config -- 配置中心（阿波罗/nacos）
          │  |  ├─knd-gateway -- api网关一级工程
          │  │     ├─sc-gateway -- spring-cloud-gateway[9900]
          │  │     ├─zuul-gateway -- netflix-zuul[9900]
@@ -68,8 +68,8 @@
          │  │  ├─rocketmq-demo -- rocketmq和mq事务demo
          │  │  ├─sso-demo -- 单点登录demo
          
-         2.业务模块项目组(初步只有通用业务模板)
-         knd-business -- 业务后台项目组父级
+         2.后台业务项目组(初步只有通用业务模板)
+         knd-business -- 业务后台项目组
          │   ├─user-center -- 用户中心[7000]
          │   ├─file-center -- 文件中心[5000]
          │   ├─code-generator -- 代码生成器[7300]
@@ -77,10 +77,16 @@
          │   │  ├─search-client -- 搜索中心客户端
          │   │  ├─search-server -- 搜索中心服务端[7100]
          
-         3.前端模块项目组
-         knd-web --前端项目组父级
+         3.前端项目组
+         knd-web --前端项目组
          │  ├─back-web  -- 后台管理前端[8066]
          │  ├─front-web -- 前台业务前端[8088] 
+         
+         4.单体项目组(通用业务模板)
+         knd-single --单体项目组
+         │  ├─back-web  -- 后台管理前端[8088]
+         │  ├─front-web -- 前台业务前端[8099] 
+         
 ## 5. 交流反馈
 
 
