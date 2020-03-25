@@ -1,0 +1,18 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: ${knd.elasticsearch.cluster-name}
+      cluster-nodes: ${knd.elasticsearch.cluster-nodes}:9300
+  elasticsearch:
+    rest:
+      uris: ${knd.elasticsearch.cluster-nodes}:9200
+
+knd:
+  indices:
+    show: sys-log-*, mysql-slowlog-*, sys_user, point-log-*, audit-log-*
+  swagger:
+    enabled: true
+    title: 搜索中心
+    description: 搜索中心接口文档
+    version: 1.0
+    base-package: com.kernel.search.controller

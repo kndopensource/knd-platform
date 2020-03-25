@@ -3,21 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>knd-platform</artifactId>
+        <artifactId>knd-micro</artifactId>
         <groupId>com.knd</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <description>微服务组件集</description>
+    <description>分布式事务组件</description>
     <modules>
-        <module>micro-nacos-config</module>
-        <module>micro-gateway</module>
-        <module>micro-job</module>
-        <module>micro-monitor</module>
-        <module>micro-transaction</module>
-        <module>micro-search</module>
+        <module>txlcn-tm-transaction</module>
     </modules>
-    <artifactId>knd-micro</artifactId>
+    <artifactId>micro-transaction</artifactId>
     <packaging>pom</packaging>
 
 </project>

@@ -1,0 +1,7 @@
+kndopensource:
+  swagger:
+    enabled: true
+    title: 日志中心
+    description: 日志中心接口文档
+    version: 1.0
+    base-package: com.kernel.log.controller

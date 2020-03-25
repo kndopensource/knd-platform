@@ -136,6 +136,16 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.knd</groupId>
+                <artifactId>knd-common-springboot-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.knd</groupId>
+                <artifactId>knd-swagger2-springboot-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>io.jsonwebtoken</groupId>
                 <artifactId>jjwt</artifactId>
                 <version>${jjwt.version}</version>
@@ -289,11 +299,11 @@
                 <artifactId>fastdfs-client</artifactId>
                 <version>${fastdfs-client.version}</version>
             </dependency>
-            <!--<dependency>-->
-                <!--<groupId>com.knd</groupId>-->
-                <!--<artifactId>search-client</artifactId>-->
-                <!--<version>${project.version}</version>-->
-            <!--</dependency>-->
+            <dependency>
+                <groupId>com.knd</groupId>
+                <artifactId>search-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>eu.bitwalker</groupId>
                 <artifactId>UserAgentUtils</artifactId>
