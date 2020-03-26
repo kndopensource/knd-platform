@@ -1,12 +1,12 @@
-package com.central.oauth.service.impl;
+package com.kernel.oauth.service.impl;
 
 import cn.hutool.core.util.PageUtil;
 import cn.hutool.core.util.StrUtil;
-import com.central.common.constant.SecurityConstants;
-import com.central.common.model.PageResult;
-import com.central.common.redis.template.RedisRepository;
-import com.central.oauth.model.TokenVo;
-import com.central.oauth.service.ITokensService;
+import com.kernel.common.constant.SecurityConstants;
+import com.kernel.common.model.PageResult;
+import com.kernel.common.redis.template.RedisRepository;
+import com.kernel.oauth.model.TokenVo;
+import com.kernel.oauth.service.ITokensService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.MapUtils;
 import org.springframework.beans.factory.annotation.Autowired;

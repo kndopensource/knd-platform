@@ -2,12 +2,12 @@ package com.kernel.oauth.service.impl;
 
 import cn.hutool.core.util.RandomUtil;
 import com.kernel.common.feign.UserService;
-import com.central.common.redis.template.RedisRepository;
-import com.central.common.constant.SecurityConstants;
-import com.central.common.model.Result;
-import com.central.common.model.SysUser;
-import com.central.oauth.exception.ValidateCodeException;
-import com.central.oauth.service.IValidateCodeService;
+import com.kernel.common.redis.template.RedisRepository;
+import com.kernel.common.constant.SecurityConstants;
+import com.kernel.common.model.Result;
+import com.kernel.common.model.SysUser;
+import com.kernel.oauth.exception.ValidateCodeException;
+import com.kernel.oauth.service.IValidateCodeService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

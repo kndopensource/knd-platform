@@ -1,7 +1,7 @@
-package com.central.oauth.service.impl;
+package com.kernel.oauth.service.impl;
 
-import com.central.common.feign.UserService;
-import com.central.oauth.service.ZltUserDetailsService;
+import com.kernel.common.feign.UserService;
+import com.kernel.oauth.service.ZltUserDetailsService;
 import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.InternalAuthenticationServiceException;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -9,7 +9,7 @@ import org.springframework.social.security.SocialUserDetails;
 import org.springframework.social.security.SocialUserDetailsService;
 import org.springframework.stereotype.Service;
 
-import com.central.common.model.LoginAppUser;
+import com.kernel.common.model.LoginAppUser;
 
 import lombok.extern.slf4j.Slf4j;
 
