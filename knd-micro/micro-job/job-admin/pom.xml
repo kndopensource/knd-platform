@@ -11,6 +11,7 @@
     <description>分布式任务调度控制台</description>
     <artifactId>job-admin</artifactId>
     <packaging>jar</packaging>
+
     <dependencyManagement>
         <dependencies>
             <dependency>

@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>job-core</artifactId>
     <packaging>jar</packaging>
+
     <dependencies>
         <!-- xxl-rpc-core -->
         <dependency>
