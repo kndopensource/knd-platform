@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Configuration;
  * @date 2019/8/21
  */
 @Configuration
-@ConditionalOnProperty(prefix = "kndopensource.gateway.dynamicRoute", name = "enabled", havingValue = "true")
+@ConditionalOnProperty(prefix = "knd.gateway.dynamicRoute", name = "enabled", havingValue = "true")
 public class DynamicZuulRouteConfig {
     @Autowired
     private ZuulProperties zuulProperties;
@@ -29,7 +29,7 @@ public class DynamicZuulRouteConfig {
      * Nacos实现方式
      */
     @Configuration
-    @ConditionalOnProperty(prefix = "kndopensource.gateway.dynamicRoute", name = "dataType", havingValue = "nacos", matchIfMissing = true)
+    @ConditionalOnProperty(prefix = "knd.gateway.dynamicRoute", name = "dataType", havingValue = "nacos", matchIfMissing = true)
     public class NacosZuulRoute {
         @Autowired
         private NacosConfigProperties nacosConfigProperties;

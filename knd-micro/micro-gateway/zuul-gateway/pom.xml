@@ -71,7 +71,7 @@
         </dependency>
         <!-- swagger -->
         <dependency>
-            <groupId>com.github.zlt2000</groupId>
+            <groupId>com.github.knd2000</groupId>
             <artifactId>swagger-butler-core</artifactId>
         </dependency>
 

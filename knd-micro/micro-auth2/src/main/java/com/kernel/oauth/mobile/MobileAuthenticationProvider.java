@@ -1,6 +1,6 @@
 package com.kernel.oauth.mobile;
 
-import com.kernel.oauth.service.ZltUserDetailsService;
+import com.kernel.oauth.service.KndUserDetailsService;
 import com.kernel.oauth2.common.token.MobileAuthenticationToken;
 import lombok.Setter;
 import org.springframework.security.authentication.AuthenticationProvider;
@@ -15,7 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
  */
 @Setter
 public class MobileAuthenticationProvider implements AuthenticationProvider {
-    private ZltUserDetailsService userDetailsService;
+    private KndUserDetailsService userDetailsService;
     private PasswordEncoder passwordEncoder;
 
     @Override

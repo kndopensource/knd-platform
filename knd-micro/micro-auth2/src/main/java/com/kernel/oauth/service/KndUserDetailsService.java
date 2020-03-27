@@ -8,7 +8,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
  * @author knd
  * @date 2018/12/28
  */
-public interface ZltUserDetailsService extends UserDetailsService {
+public interface KndUserDetailsService extends UserDetailsService {
     /**
      * 根据电话号码查询用户
      *
