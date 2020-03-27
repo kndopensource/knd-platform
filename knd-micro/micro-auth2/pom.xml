@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <description>认证中心</description>
-    <artifactId>knd-auth2</artifactId>
+    <artifactId>micro-auth2</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>

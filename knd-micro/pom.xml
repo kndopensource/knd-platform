@@ -16,7 +16,7 @@
         <module>micro-monitor</module>
         <module>micro-transaction</module>
         <module>micro-search</module>
-        <module>knd-auth2</module>
+        <module>micro-auth2</module>
     </modules>
     <artifactId>knd-micro</artifactId>
     <packaging>pom</packaging>
