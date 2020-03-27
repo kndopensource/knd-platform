@@ -57,8 +57,8 @@
          │  |  ├─micro-monitor -- 监控一级工程
          │  |  │  ├─monitor-admin -- 应用监控[6500]
          │  |  │  ├─monitor-logcenter -- 日志中心[6200]
-         │  |  ├─knd-uaa  -- spring-security认证中心[8000]
-         │  |  ├─knd-register -- 注册中心Nacos[8848]
+         │  |  ├─micro-auth2  -- spring-security认证中心[8000]
+         │  |  ├─micro-register -- 注册中心Nacos[8848]
          │  |  ├─micro-search -- 分布式事务子模块
          │  |  │  ├─search-client -- 搜索中心客端
          │  |  │  ├─search-server -- 搜索中心服务端[7100]
