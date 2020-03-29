@@ -5,12 +5,13 @@
     <parent>
         <artifactId>knd-commons</artifactId>
         <groupId>com.knd</groupId>
-        <version>1.0.0</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>knd-common-springboot-starter</artifactId>
     <description>springboot公共通用组件过滤器、拦截器。。。</description>
     <packaging>jar</packaging>
+    <name>${project.artifactId}</name>
 
     <dependencies>
         <dependency>

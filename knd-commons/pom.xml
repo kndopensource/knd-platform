@@ -5,12 +5,13 @@
     <parent>
         <artifactId>knd-platform</artifactId>
         <groupId>com.knd</groupId>
-        <version>1.0.0</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>knd-commons</artifactId>
     <description>通用基础组件集</description>
     <packaging>pom</packaging>
+    <name>${project.artifactId}</name>
     <modules>
         <module>knd-common-core</module>
         <module>knd-log-springboot-starter</module>

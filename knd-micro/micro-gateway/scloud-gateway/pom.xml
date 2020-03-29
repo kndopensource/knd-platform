@@ -5,7 +5,7 @@
     <parent>
         <artifactId>micro-gateway</artifactId>
         <groupId>com.knd</groupId>
-        <version>1.0.0</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <description>基于spring cloud gateway微服务网关</description>
@@ -33,7 +33,7 @@
         <dependency>
             <groupId>com.knd</groupId>
             <artifactId>knd-authclient-springboot-starter</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

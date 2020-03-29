@@ -6,8 +6,9 @@
 
     <groupId>com.knd</groupId>
     <artifactId>knd-platform</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <name>${project.artifactId}</name>
     <modules>
         <!-- 公共组件集 -->
         <module>knd-commons</module>
@@ -16,6 +17,7 @@
         <!--功能案例集-->
         <module>knd-demo</module>
     </modules>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -381,7 +383,52 @@
                     <artifactId>docker-maven-plugin</artifactId>
                     <version>${docker-maven-plugin.version}</version>
                 </plugin>
+                <!--上传source.jar 非必须-->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <executions>
+                        <execution>
+                            <id>attach-sources</id>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+                <!-- 一键更新子模块版本号 -->
+                <!--<plugin>-->
+                    <!--<groupId>org.codehaus.mojo</groupId>-->
+                    <!--<artifactId>versions-maven-plugin</artifactId>-->
+                    <!--<version>2.7</version>-->
+                    <!--<configuration>-->
+                        <!--<generateBackupPoms>false</generateBackupPoms>-->
+                    <!--</configuration>-->
+                <!--</plugin>-->
             </plugins>
         </pluginManagement>
     </build>
+    <!--当前激活版本-->
+    <profiles>
+        <profile>
+            <id>maven-snapshots</id>  <!--maven-releases-->
+            <properties>
+                <project.version>${project.version}</project.version>
+            </properties>
+        </profile>
+    </profiles>
+    <!--定义snapshots库和releases库的nexus私服地址-->
+    <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <name>releases Repository</name>
+            <url>http://192.168.1.110:8081/repository/maven-releases/</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://192.168.1.110:8081/repository/maven-snapshots/</url>
+            <uniqueVersion>true</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
 </project>

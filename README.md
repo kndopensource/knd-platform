@@ -46,21 +46,24 @@
          │  │  ├─knd-swagger2-spring-boot-starter -- 封装Swagger通用操作逻辑
          │  │  ├─knd-doc -- 项目文档
          │  │─knd-micro -- 通用微服务组件模块
-         │  │  ├─knd-config -- 配置中心（阿波罗/nacos）
-         │  |  ├─knd-gateway -- api网关一级工程
-         │  │     ├─sc-gateway -- spring-cloud-gateway[9900]
+         │  │  ├─micro-nacos-config -- 配置中心（阿波罗/nacos）
+         │  |  ├─micro-gateway -- api网关一级工程
+         │  │     ├─scloud-gateway -- spring-cloud-gateway[9900]
          │  │     ├─zuul-gateway -- netflix-zuul[9900]
-         │  |  ├─knd-job -- 分布式任务调度一级工程
+         │  |  ├─micro-job -- 分布式任务调度一级工程
          │  │     ├─job-admin -- 任务管理器[8081]
          │  │     ├─job-core -- 任务调度核心代码
          │  │     ├─job-executor-samples -- 任务执行者executor样例[8082]
-         │  |  ├─knd-monitor -- 监控一级工程
-         │  |  │  ├─sc-admin -- 应用监控[6500]
-         │  |  │  ├─log-center -- 日志中心[6200]
-         │  |  ├─knd-uaa  -- spring-security认证中心[8000]
-         │  |  ├─knd-register -- 注册中心Nacos[8848]
-         │  |  ├─knd-transaction -- 分布式事务子模块
-         │  |  │  ├─txlcn-tm -- tx-lcn事务管理器[7970]
+         │  |  ├─micro-monitor -- 监控一级工程
+         │  |  │  ├─monitor-admin -- 应用监控[6500]
+         │  |  │  ├─monitor-logcenter -- 日志中心[6200]
+         │  |  ├─micro-auth2  -- spring-security认证中心[8000]
+         │  |  ├─micro-register -- 注册中心Nacos[8848]
+         │  |  ├─micro-search -- 分布式事务子模块
+         │  |  │  ├─search-client -- 搜索中心客端
+         │  |  │  ├─search-server -- 搜索中心服务端[7100]
+         │  |  ├─micro-transaction -- 分布式事务子模块
+         │  |  │  ├─txlcn-tm-transaction -- tx-lcn事务管理器[7970]
          │  ├─knd-demo -- demo示列一级工程
          │  │  ├─txlcn-demo -- txlcn分布式事务demo
          │  │  ├─seata-demo -- seata分布式事务demo
@@ -72,11 +75,8 @@
          knd-business -- 业务后台项目组
          │   ├─user-center -- 用户中心[7000]
          │   ├─file-center -- 文件中心[5000]
-         │   ├─code-generator -- 代码生成器[7300]
-         │   ├─search-center -- 搜索中心
-         │   │  ├─search-client -- 搜索中心客户端
-         │   │  ├─search-server -- 搜索中心服务端[7100]
-         
+         │   ├─code-generator -- 代码生成器[7300]  
+          
          3.前端项目组
          knd-web --前端项目组
          │  ├─back-web  -- 后台管理前端[8066]

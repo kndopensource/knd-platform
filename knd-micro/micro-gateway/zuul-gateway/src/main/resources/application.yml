@@ -14,19 +14,19 @@
         # 限流
 #        ds1:
 #          nacos:
-#            server-addr: ${kndopensource.nacos.server-addr}
+#            server-addr: ${knd.nacos.server-addr}
 #            dataId: ${spring.application.name}-sentinel-gw-flow
 #            groupId: DEFAULT_GROUP
 #            rule-type: gw-flow
         # api分组
 #        ds2:
 #          nacos:
-#            server-addr: ${kndopensource.nacos.server-addr}
+#            server-addr: ${knd.nacos.server-addr}
 #            dataId: ${spring.application.name}-sentinel-gw-api-group
 #            groupId: DEFAULT_GROUP
 #            rule-type: gw-api-group
 
-kndopensource:
+knd:
   oauth2:
     token:
       store:
