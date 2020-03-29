@@ -10,7 +10,7 @@ mybatis-plus:
   #实体扫描，多个package用逗号或者分号分隔
   typeAliasesPackage: com.kernel.oauth.model
   global-config:
-    db-config:+
+    db-config:
       id-type: auto
 
 knd:

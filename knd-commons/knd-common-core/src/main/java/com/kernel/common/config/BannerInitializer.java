@@ -20,9 +20,9 @@ public class BannerInitializer implements ApplicationContextInitializer<Configur
     @Override
     public void initialize(ConfigurableApplicationContext applicationContext) {
         if (!(applicationContext instanceof AnnotationConfigApplicationContext)) {
-            LogoBanner logoBanner = new LogoBanner(BannerInitializer.class, "/kndopensourcemp/logo.txt", "Welcome to kndopensource", 5, 6, new Color[5], true);
+            LogoBanner logoBanner = new LogoBanner(BannerInitializer.class, "/kndmp/logo.txt", "Welcome to mohism", 5, 6, new Color[5], true);
             CustomBanner.show(logoBanner, new Description(BannerConstant.VERSION + ":", CommonConstant.PROJECT_VERSION, 0, 1)
-                    , new Description("Gitee:", "https://gitee.com/kndopensource2000/microservices-platform", 0, 1)
+                    , new Description("Gitee:", "https://gitee.com/kndopensource2000/knd-platform", 0, 1)
                     , new Description("Blog:", "https://blog.csdn.net/kndopensource2000", 0, 1)
             );
         }
